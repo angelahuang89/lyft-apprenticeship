@@ -17,6 +17,6 @@ app.post('/test', (request, response) => {
   response.send(output);
 });
 
-const port = 1337;
+const port = process.env.PORT;
 
 app.listen(port, () => console.log(`listening on port ${port}`));
