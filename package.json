@@ -1,0 +1,25 @@
+{
+  "name": "lyft",
+  "version": "1.0.0",
+  "description": "software apprenticeship application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelahuang89/lyft-apprenticeship.git"
+  },
+  "author": "Angela Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelahuang89/lyft-apprenticeship/issues"
+  },
+  "homepage": "https://github.com/angelahuang89/lyft-apprenticeship#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12"
+  }
+}
